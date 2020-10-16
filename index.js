@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 function dark() {
   chrome.storage.sync.set({
     running: true,

@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 function colorChanger() {
   let color = '#edeef0'
   chrome.storage.sync.get('running', (data) => {
